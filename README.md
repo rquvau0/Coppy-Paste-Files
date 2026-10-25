@@ -1,15 +1,19 @@
-# sort-files
+# Coppy/Paste-Files
 
-Code made with Claude AI, if you have any mistakes please report to me.
+⚠Code made with Claude AI, if you have any mistakes please report to me.
 
-Run with Python.
+ Run with Python.
 
-## Files
+## **Files**
 
 ```text
 file_bot_web/
 ├── file_bot_web.py     # Backend Python: server + xử lý file
 └── index.html          # Giao diện (HTML + CSS + JavaScript nhúng chung)
+```
+## **Structure**
+
+```text
 file_bot_web/
 ├── file_bot_web.py          # Backend Python
 │   ├── Tiện ích             # liệt kê file, so trùng tên, đặt tên (1), (2)...
@@ -23,6 +27,10 @@ file_bot_web/
     ├── Tab Xóa file ở đích
     ├── Tab Xem trước vị trí # kéo thả sắp thứ tự chép
     └── Khung Kết quả
+```
+## **Works**
+
+```text
 1. python file_bot_web.py
         │
         ▼
@@ -46,3 +54,12 @@ file_bot_web/
         │
         ▼
 8. Announce result [OK] / [LỖI] cho từng file
+```
+## **How to use**
+
+```text
+Download file bot
+Open file bot
+Run file_bot_web.py
+Turn off = close cmd or press key Ctrl + C in cmd
+```
