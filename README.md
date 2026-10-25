@@ -58,8 +58,8 @@ file_bot_web/
 ## **How to use**
 
 ```text
-Download file bot
-Open file bot
+Download file bot.zip
+Extract bot.zip
 Run file_bot_web.py
 Turn off = close cmd or press key Ctrl + C in cmd
 ```
