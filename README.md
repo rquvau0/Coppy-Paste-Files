@@ -1,11 +1,15 @@
 # sort-files
-code make with claude AI if have a mistake report for me
-run with python
-**files**
+
+Code made with Claude AI, if you have any mistakes please report to me.
+
+Run with Python.
+
+## Files
+
+```text
 file_bot_web/
 ├── file_bot_web.py     # Backend Python: server + xử lý file
 └── index.html          # Giao diện (HTML + CSS + JavaScript nhúng chung)
-**structure**
 file_bot_web/
 ├── file_bot_web.py          # Backend Python
 │   ├── Tiện ích             # liệt kê file, so trùng tên, đặt tên (1), (2)...
@@ -19,17 +23,16 @@ file_bot_web/
     ├── Tab Xóa file ở đích
     ├── Tab Xem trước vị trí # kéo thả sắp thứ tự chép
     └── Khung Kết quả
-**works**
-1.  python file_bot_web.py
+1. python file_bot_web.py
         │
         ▼
-2. Broswer auto open interface (index.html)
+2. Browser auto open interface (index.html)
         │
         ▼
 3. Paste Source start + finish  →  bấm "Tải danh sách"
         │
         ▼
-4. Tab paste: choose file necessary coppy
+4. Tab paste: choose file necessary copy
         │
         ▼
 5. Tab preview: drag to arrange
@@ -38,8 +41,8 @@ file_bot_web/
 6. Click "Sao chép"
         │
         ▼
-7. Python coppy files finished to first
+7. Python copy files finished to first
    (trùng tên thì hỏi bạn, đổi tên (1), (2)... chứ không ghi đè)
         │
         ▼
-8. Annoumance result [OK] / [LỖI] cho từng file
+8. Announce result [OK] / [LỖI] cho từng file
